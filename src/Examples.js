@@ -4,9 +4,8 @@ export default function Examples(props) {
   if (props.examples) {
     return (
       <div className="Examples">
-        {props.examples.map(function (example, index) {
-          return <span key={index}>{example}</span>;
-        })}
+        <strong>Examples: </strong>
+        {props.examples}
       </div>
     );
   } else {
