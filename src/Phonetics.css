@@ -1,0 +1,20 @@
+.Phonetics .Phonetics-button {
+  display: inline;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+  font-size: 20px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: white;
+  opacity: 0.8;
+}
+
+.Phonetics .Phonetics-button:hover {
+  cursor: pointer;
+  color: #525750;
+}
+
+.Phonetics .Phonetics-text {
+  font-size: 18px;
+  margin-left: 10px;
+}

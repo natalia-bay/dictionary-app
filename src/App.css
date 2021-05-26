@@ -1,10 +1,33 @@
+.App {
+  background: #9da993;
+}
+
 .App-header {
   text-align: center;
   font-size: 60px;
   margin: 30px 0;
+  font-family: "Monoton", cursive;
+  color: white;
 }
 
 .App-footer {
   text-align: center;
   margin: 30px 0;
+  color: #525750;
+}
+
+.container {
+  max-width: 900px;
+  padding: 20px 50px;
+}
+
+.App a {
+  color: white;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+
+.App a:hover {
+  cursor: pointer;
+  color: #525750;
 }

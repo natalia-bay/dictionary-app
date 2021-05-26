@@ -1,4 +1,5 @@
 import React from "react";
+import "./Phonetics.css";
 
 export default function Photenics(props) {
   const audio = new Audio(props.phonetics.audio);
@@ -15,10 +16,9 @@ export default function Photenics(props) {
           className="Phonetics-button"
           onClick={handleClick}
         >
-          Listen
+          <i className="fas fa-volume-up"></i>
         </button>
-        <br />
-        {props.phonetics.text}
+        <span className="Phonetics-text">{props.phonetics.text}</span>
       </div>
     );
   } else {
