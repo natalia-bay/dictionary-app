@@ -4,7 +4,7 @@ import Dictionary from "./Dictionary";
 export default function App() {
   return (
     <div className="App">
-      <div className="container">
+      <div className="container-fluid">
         <header className="App-header">
           <a href="/">Dictionary</a>
         </header>

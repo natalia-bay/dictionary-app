@@ -1,5 +1,6 @@
 body {
   background: #a1ad97;
+  text-align: center;
 }
 
 .App-header {
@@ -16,7 +17,7 @@ body {
   color: #525750;
 }
 
-.container {
+.container-fluid {
   max-width: 900px;
   padding: 20px 50px;
 }
@@ -30,4 +31,10 @@ body {
 .App a:hover {
   cursor: pointer;
   color: #525750;
+}
+
+@media (max-width: 768px) {
+  .App-header {
+    font-size: 42px;
+  }
 }
