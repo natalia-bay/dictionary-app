@@ -6,7 +6,6 @@ This project was created using HTML5/CSS3 and React.js. It is hosted on Netlify 
 <img width="943" alt="Screen Shot 2021-05-27 at 12 08 26" src="https://user-images.githubusercontent.com/78911193/119764637-5f8f9b80-bee4-11eb-8f56-6e29a5b5686c.png">
 
 ### App features
-* Uses [Free Dictionary API]
-(https://dictionaryapi.dev/) and [Pexels API](https://www.pexels.com/api/)
+* Uses [Free Dictionary API](https://dictionaryapi.dev/) and [Pexels API](https://www.pexels.com/api/)
 * Displays phonetics, synonyms, use cases and images for searched term
 * Mobile, tablet, and desktop responsive
